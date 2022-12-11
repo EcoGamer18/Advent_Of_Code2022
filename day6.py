@@ -1,5 +1,5 @@
 def read_from_file_6():
-    with open("input_day6.txt") as file:
+    with open("inputs/input_day6.txt") as file:
         for line in file:
             tasks = line.strip()
     return tasks

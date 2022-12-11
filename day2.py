@@ -79,7 +79,7 @@ def solution_2(arr):
 
 
 def read_from_file_day2():
-    with open("input_day2.txt") as file:
+    with open("inputs/input_day2.txt") as file:
         values = []
 
         for line in file:

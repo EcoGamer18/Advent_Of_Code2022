@@ -2,7 +2,7 @@ from collections import Counter
 
 
 def read_from_file_3():
-    with open("input_day3.txt") as file:
+    with open("inputs/input_day3.txt") as file:
         rucksacks = []
         for line in file:
             aux = line.rstrip()

@@ -1,5 +1,5 @@
 def read_from_file_7():
-    with open("input_day7.txt") as file:
+    with open("inputs/input_day7.txt") as file:
         commands = []
         for line in file:
             commands.append(line.strip())

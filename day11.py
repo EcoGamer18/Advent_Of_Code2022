@@ -23,7 +23,7 @@ class Monkey:
 
 def read_from_file_11():
     monkeys = []
-    with open("input_day11.txt") as file:
+    with open("inputs/input_day11.txt") as file:
         for i, line in enumerate(file):
             if i % 7 == 0:
                 monkey = Monkey(0, 0, 0, 0, 0, 0)

@@ -3,7 +3,7 @@ import re
 
 def read_from_file_5():
     stacks = []
-    with open("input_day5.txt") as file:
+    with open("inputs/input_day5.txt") as file:
         crates = []
         move = []
         for line in file:

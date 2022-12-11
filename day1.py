@@ -1,5 +1,5 @@
 def read_from_file_1():
-    with open("input_day1.txt") as file:
+    with open("inputs/input_day1.txt") as file:
         elfs = []
         elf = []
         for line in file:
